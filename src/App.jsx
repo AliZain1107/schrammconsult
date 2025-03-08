@@ -15,7 +15,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { FormProvider } from "./contexts/FormContext";
 import ContentSections from "./ContentSection";
 
-import tick from "./assets/tick.svg";
+import tick from "./assets/Tick.svg";
 import { ToastContainer } from "react-toastify";
 
 function App() {
