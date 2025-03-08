@@ -7,9 +7,9 @@ import imgNum1 from './assets/Num1.svg';
 import imgNum2 from './assets/Num2.svg';
 import imgNum3 from './assets/Num3.svg';
 import imgSection from './assets/sectionImg.webp';
-import imgSection1 from './assets/section1img.svg';
-import imgSection2 from './assets/section2img.svg';
-import line from './assets/Desktopline.svg'
+import imgSection1 from './assets/Section1img.svg';
+import imgSection2 from './assets/Section2img.svg';
+import line from './assets/DesktopLine.svg'
 import arrow1 from './assets/Arrow1.svg'
 import arrow2 from './assets/Arrow2.svg'
 
@@ -32,7 +32,6 @@ function ContentSections() {
           <div className="flex flex-col items-center">
            <img width={60} src={imgNum1} alt="" />
             <p className="text-gray-600 text-xs mt-1">{t("contentSections.step1")}</p>
-            <h1>Hi there New line Pushed LIVE!</h1>
           </div>
 
           <div className="max-md:hidden absolute left-[23%] top-[40%]  w-[120px] h-0.5 ">

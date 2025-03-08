@@ -8,7 +8,6 @@ import ErrorBoundary from "../ErrorBoundary";
 import { useTranslation } from "react-i18next";
 import { FaBriefcase, FaGraduationCap, FaHome, FaPaintBrush, FaQuestion, FaUser, FaUserShield, FaUserTie } from "react-icons/fa";
 import { SiFreelancer } from "react-icons/si";
-// import freelancerIcon from '../assets/FreelancerIcon.svg'
 import freelancerIcon from '../assets/FreelancerIcon.svg'
 
 

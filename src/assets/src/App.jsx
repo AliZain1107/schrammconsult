@@ -17,7 +17,7 @@ import ContentSections from "./ContentSection";
 
 import tick from "./assets/Tick.svg";
 import { ToastContainer } from "react-toastify";
-// CASE UPDATE
+
 function App() {
   const location = useLocation();
   const { t, i18n } = useTranslation();
@@ -60,7 +60,7 @@ function App() {
           <p className="text-start w-[140px] text-[#1475b1] sm:w-full  sm:text-center font-light mb-4">{t("mainpage.description")}</p>
           </div>
           <div className="z-40 relative hidden md:block ">
-          <h1>CAse Update</h1>
+
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<AnimatedRoute><Step1 /></AnimatedRoute>} />
