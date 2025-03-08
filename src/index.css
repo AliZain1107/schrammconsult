@@ -164,7 +164,7 @@ select {
   /* background: red !important; */
   font-size: 24px;
   /* bottom: -10% !important; */
-  top: 108% !important;
+  top: 105% !important;
 }
 .slick-prev:hover,
 .slick-next:hover{
@@ -176,13 +176,13 @@ select {
 }
 
 .slick-prev {
-  left: 80px !important;
+  left: 150px !important;
 }
 
 .slick-next {
-  right: 20% !important;
+  right: 150px !important;
 }
-@media (max-width :400px){
+@media (max-width :640px){
   /* I want to show the dots at bottom  */
   .slick-arrow{
     /* top: 130% !important;  */

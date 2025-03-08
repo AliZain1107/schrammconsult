@@ -106,7 +106,7 @@ const packages = [{name:"basic",icon: star1}, {name:"comfort",icon:star2}, {name
     <ErrorBoundary>
       <div className={`max-w-lg mx-auto bg-[#fffffffe]   p-6 rounded-lg custom-shadow transition-all duration-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         <div className="w-full h-1 bg-gray-200 rounded-full mb-6">
-          <div className="h-1 bg-blue-400 rounded-full" style={{ width: "75%" }}></div>
+          <div className="h-1 bg-[#80CBC4] rounded-full" style={{ width: "75%" }}></div>
         </div>
         <h1 className="text-2xl font-bold text-gray-800 mb-4">{t("step3.title")}</h1>
 
@@ -117,7 +117,7 @@ const packages = [{name:"basic",icon: star1}, {name:"comfort",icon:star2}, {name
               key={pkg.name}
               onClick={() => handlePackageChange(pkg.name.charAt(0).toUpperCase() + pkg.name.slice(1))}
               className={`p-4 px-6  sm:px-10 lg:px-10  flex flex-col items-center justify-center gap-6 border rounded-md cursor-pointer transition ${
-                formData.package === (pkg.name.charAt(0).toUpperCase() + pkg.name.slice(1)) ? "border-blue-500 border-2 bg-blue-100" : "border-gray-300"
+                formData.package === (pkg.name.charAt(0).toUpperCase() + pkg.name.slice(1)) ? "border-[#FFB433] border-2 bg-orange-100" : "border-gray-300"
               }`}
             >
               <img  width={60} className="!max-h-[60px] object-cover overflow-hidden" src={pkg.icon} alt="" />
@@ -156,7 +156,7 @@ const packages = [{name:"basic",icon: star1}, {name:"comfort",icon:star2}, {name
            <div className="absolute bg-white top-[-9px] left-[40%] z-[-999] rotate-[45deg] border border-b-0 w-4 h-4 border-r-0"></div>
           
           {["accommodation", "treatment", "dental"].map((option) => (
-            <div key={option} className="flex items-center space-x-2">
+            <div key={option} className="flex pkgOption items-center space-x-2 border-b">
             <svg width="14" height="14" viewBox="0 0 85.04 68.03">
   <path
     fill="#FFA200"
@@ -174,7 +174,7 @@ const packages = [{name:"basic",icon: star1}, {name:"comfort",icon:star2}, {name
            <div className="absolute bg-white top-[-9px] right-[16%] z-[-999] rotate-[45deg] border border-b-0 w-4  h-4 border-r-0"></div>
           
           {["accommodation", "treatment", "dental"].map((option) => (
-            <div key={option} className="flex items-center space-x-2">
+            <div key={option} className="flex pkgOption items-center space-x-2 border-b">
             <svg width="14" height="14" viewBox="0 0 85.04 68.03">
   <path
     fill="#FFA200"
