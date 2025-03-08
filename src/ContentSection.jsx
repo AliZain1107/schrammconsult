@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { FaShieldAlt, FaPhoneAlt, FaStar } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
-import imgNum1 from './assets/num1.svg';
-import imgNum2 from './assets/num2.svg';
-import imgNum3 from './assets/num3.svg';
+import imgNum1 from './assets/Num1.svg';
+import imgNum2 from './assets/Num2.svg';
+import imgNum3 from './assets/Num3.svg';
 import imgSection from './assets/sectionImg.webp';
 import imgSection1 from './assets/section1img.svg';
 import imgSection2 from './assets/section2img.svg';
