@@ -58,11 +58,11 @@ function App() {
           <div className="relative z-10">
         <h1 className="text-start !text-[#4a617b] sm:text-center font-medium">{t("mainpage.title")}</h1>
           <p className="text-start w-[140px] text-[#1475b1] sm:w-full  sm:text-center font-light mb-4">{t("mainpage.description")}</p>
-          <h1>Hi there New line Pushed LIVE!</h1>
+          {/* <h1>Hi there New line Pushed LIVE!</h1> */}
           <h2>WHY THESE CHANGES ARE NOT BEING REFLECTED!!</h2>
           </div>
           <div className="z-40 relative hidden md:block ">
-          <h1>CAse Update</h1>
+          {/* <h1>CAse Update</h1> */}
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
               <Route path="/" element={<AnimatedRoute><Step1 /></AnimatedRoute>} />
