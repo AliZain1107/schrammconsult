@@ -9,7 +9,7 @@ import imgNum3 from './assets/Num3.svg';
 import imgSection from './assets/sectionImg.webp';
 import imgSection1 from './assets/Section1img.svg';
 import imgSection2 from './assets/Section2img.svg';
-import line from './assets/Desktopline.svg'
+import line from './assets/DesktopLine.svg'
 import arrow1 from './assets/Arrow1.svg'
 import arrow2 from './assets/Arrow2.svg'
 
