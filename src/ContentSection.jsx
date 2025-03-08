@@ -32,7 +32,7 @@ function ContentSections() {
           <div className="flex flex-col items-center">
            <img width={60} src={imgNum1} alt="" />
             <p className="text-gray-600 text-xs mt-1">{t("contentSections.step1")}</p>
-            <h1>Hi there New line Pushed LIVE!</h1>
+            
           </div>
 
           <div className="max-md:hidden absolute left-[23%] top-[40%]  w-[120px] h-0.5 ">

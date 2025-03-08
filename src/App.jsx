@@ -58,6 +58,7 @@ function App() {
           <div className="relative z-10">
         <h1 className="text-start !text-[#4a617b] sm:text-center font-medium">{t("mainpage.title")}</h1>
           <p className="text-start w-[140px] text-[#1475b1] sm:w-full  sm:text-center font-light mb-4">{t("mainpage.description")}</p>
+          <h1>Hi there New line Pushed LIVE!</h1>
           </div>
           <div className="z-40 relative hidden md:block ">
           <h1>CAse Update</h1>
