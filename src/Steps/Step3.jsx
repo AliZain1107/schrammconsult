@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useForm } from "../contexts/FormContext";
 import ErrorBoundary from "../ErrorBoundary";
 import { useTranslation } from "react-i18next";
-import tick from '../assets/tickPkgs.svg'
+import tick from '../assets/TickPkgs.svg'
 import star1 from '../assets/star1.png'
 import star2 from '../assets/star2.png'
 import star3 from '../assets/star3.png'
