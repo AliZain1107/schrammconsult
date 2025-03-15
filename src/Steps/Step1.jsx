@@ -32,7 +32,7 @@ function Step1() {
     <ErrorBoundary>
       <div className={`max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg transition-all duration-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         <div className="w-full h-1 bg-gray-200 rounded-full mb-6">
-          <div className="h-1 bg-[#FFB433] rounded-full" style={{ width: "25%" }}></div>
+          <div className="h-1 bg-[#80CBC4]  rounded-full" style={{ width: "25%" }}></div>
         </div>
         <h1 className="text-2xl font-bold text-gray-800 mb-4">{t("step1.title")}</h1>
         <div className="space-y-4 mb-6">

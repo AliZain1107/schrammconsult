@@ -21,7 +21,7 @@ function ContentSections() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      className=" px-4 py-12 bg-white"
+      className=" sm:px-4 py-12 bg-white"
     >
       <div  className="">
 
@@ -83,8 +83,8 @@ function ContentSections() {
 
 
 {/* Subsection1 */}
-          <div className="max-w-7xl mx-auto">
-        <div className="w-full flex-col py-8 md:flex-row flex ">
+<div className="max-w-7xl mx-auto">
+     <div className="w-full flex-col py-8 md:flex-row flex ">
 
           <div className="w-64 h-64 mx-auto rounded-full overflow-hidden">
             <img
@@ -93,7 +93,7 @@ function ContentSections() {
               className="w-full h-full object-cover"
               />
           </div>
-          <div className="w-full md:w-[60%]">
+          <div className="w-full md:w-[60%] pl-2 pr-4">
 
 <h3 className="text-xl font-semibold mb-4">{t("contentSections.healthShock")}</h3>
 <p className="mb-4">{t("contentSections.healthShockText")}</p>
@@ -123,7 +123,7 @@ function ContentSections() {
               />
           </div>
           
-          <div className="mt-6 w-full md:w-[60%]">
+          <div className="mt-6 w-full md:w-[60%] pr-4">
             <h4 className="text-lg font-semibold mb-2">{t("contentSections.selfEmployedSave")}</h4>
             <p className="mb-2">{t("contentSections.selfEmployedSaveText")}</p>
             <p>{t("contentSections.performanceText")}</p>
@@ -145,7 +145,7 @@ function ContentSections() {
               />
           </div>
 
-          <div className="mt-6 md:w-[60%]">
+          <div className="mt-6 md:w-[60%] pr-4">
             <h4 className="text-lg font-semibold mb-2">{t("contentSections.employeeSave")}</h4>
             <p>{t("contentSections.employeeSaveText")}</p>
             <p className="mt-2">{t("contentSections.performanceEmployeeText")}</p>
